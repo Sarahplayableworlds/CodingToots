@@ -6,13 +6,15 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            int firstNumber = 2;
-            int secondNumber = 5;
+            Random randomNumber = new Random();
 
-            var subtraction = 7;
+            int firstNumber = randomNumber.Next(2, 10);
+            int secondNumber = randomNumber.Next(2, 10);
+
+            var subtraction = randomNumber.Next(2, 10);
 
             int answer;
-            string prompt = ". Press ENTER when ready";
+            string prompt = ". Don't type in the answer, just press ENTER when ready";
 
             Console.WriteLine("Think of a number between 1 and 10" + prompt);
             Console.ReadKey();
@@ -27,7 +29,6 @@ namespace Variables
 
             answer = firstNumber * secondNumber - subtraction;
             Console.WriteLine("the answer is " + answer);
-
         }
     }
 }

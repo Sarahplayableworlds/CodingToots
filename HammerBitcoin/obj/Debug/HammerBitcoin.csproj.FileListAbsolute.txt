@@ -1,0 +1,7 @@
+D:\PersonalProjects\HammerBitcoin\bin\Debug\HammerBitcoin.exe.config
+D:\PersonalProjects\HammerBitcoin\bin\Debug\HammerBitcoin.exe
+D:\PersonalProjects\HammerBitcoin\bin\Debug\HammerBitcoin.pdb
+D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.CoreCompileInputs.cache
+D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.exe
+D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.pdb
+D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.csprojAssemblyReference.cache

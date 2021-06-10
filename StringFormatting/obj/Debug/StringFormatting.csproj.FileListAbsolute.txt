@@ -1,0 +1,7 @@
+D:\PersonalProjects\StringFormatting\bin\Debug\StringFormatting.exe.config
+D:\PersonalProjects\StringFormatting\bin\Debug\StringFormatting.exe
+D:\PersonalProjects\StringFormatting\bin\Debug\StringFormatting.pdb
+D:\PersonalProjects\StringFormatting\obj\Debug\StringFormatting.csprojAssemblyReference.cache
+D:\PersonalProjects\StringFormatting\obj\Debug\StringFormatting.csproj.CoreCompileInputs.cache
+D:\PersonalProjects\StringFormatting\obj\Debug\StringFormatting.exe
+D:\PersonalProjects\StringFormatting\obj\Debug\StringFormatting.pdb

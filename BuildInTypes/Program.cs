@@ -16,6 +16,8 @@ namespace BuildInTypes
             Console.WriteLine($"int: minumum {int.MinValue}, maximum {int.MaxValue}");
             Console.WriteLine($"long: minumum {long.MinValue}, maximum {long.MaxValue}");
 
+            Console.WriteLine($"float: minimum {float.MinValue}, maximum {float.MaxValue}");
+            Console.WriteLine($"double: minimum {double.MinValue}, maximum {double.MaxValue}");
         }
     }
 }

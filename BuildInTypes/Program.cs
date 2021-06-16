@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace BuildInTypes
+namespace BuiltinTypes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine($"byte: Minimum {byte.MinValue}, maximum {byte.MaxValue}");
-            //Console.WriteLine($"sbyte: Minimum {sbyte.MinValue}, maximum {sbyte.MaxValue}");
-            //Console.WriteLine($"short: Minimum {short.MinValue}, maximum {short.MaxValue}");
+            //Console.WriteLine($"byte: minimum {byte.MinValue}, maximum {byte.MaxValue}");
+            //Console.WriteLine($"sbyte: minimum {sbyte.MinValue}, maximum {sbyte.MaxValue}");
+            //Console.WriteLine($"short: minimum {short.MinValue}, maximum {short.MaxValue}");
 
             var x = 234;
             Console.WriteLine(x.GetType());
@@ -26,13 +26,13 @@ namespace BuildInTypes
             Console.WriteLine($"f is {f:F99}");
             Console.WriteLine($"d is {d:F99}");
 
-           //var y = 123.4;
-           //Console.WriteLine(y.GetType());
+            //var y = 123.4;
+            //Console.WriteLine(y.GetType());
 
-            decimal z = 123.45678901234567901234567890123456789m;
+            decimal z = 123.4567890123456789012345678901234567890123456789m;
             Console.WriteLine();
-            Console.WriteLine($"decimal: minimum {decimal.MinValue}, maximum {decimal.MaxValue}");
-            Console.WriteLine($"z is {z:f99}")
+            Console.WriteLine($"decimal: minimum {double.MinValue}, decimal {double.MaxValue}");
+            Console.WriteLine($"z is {z:F99}");
 
         }
     }

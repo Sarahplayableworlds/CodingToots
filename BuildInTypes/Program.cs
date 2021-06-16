@@ -26,8 +26,14 @@ namespace BuildInTypes
             Console.WriteLine($"f is {f:F99}");
             Console.WriteLine($"d is {d:F99}");
 
-            var y = 123.4;
-            Console.WriteLine(y.GetType());
+           //var y = 123.4;
+           //Console.WriteLine(y.GetType());
+
+            decimal z = 123.45678901234567901234567890123456789m;
+            Console.WriteLine();
+            Console.WriteLine($"decimal: minimum {decimal.MinValue}, maximum {decimal.MaxValue}");
+            Console.WriteLine($"z is {z:f99}")
+
         }
     }
 }

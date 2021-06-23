@@ -11,13 +11,21 @@ namespace Accuracy
         static void Main(string[] args)
         {
             Console.Clear();
-            double result1 = 0.1 * 8;
-            double Result2 = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1;
+            //double result1 = 0.1 * 7;
+            //double Result2 = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1;
+
+            //Console.WriteLine($"1st result is {result1:R}");
+            //Console.WriteLine($"2nd result is {result2:R}");
+
+            //double difference = result1 - Result2;
+            //Console.WriteLine($"The difference is {difference:R}");
+            decimal result1 = 0.1m * 7m;
+            decimal Result2 = 0.1m + 0.1m + 0.1m + 0.1m + 0.1m + 0.1m + 0.1m;
 
             Console.WriteLine($"1st result is {result1}");
             Console.WriteLine($"2nd result is {Result2}");
 
-            double difference = result1 - Result2;
+            decimal difference = result1 - Result2;
             Console.WriteLine($"The difference is {difference}");
         }
     }

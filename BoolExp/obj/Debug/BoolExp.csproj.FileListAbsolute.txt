@@ -1,0 +1,7 @@
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\bin\Debug\BoolExp.exe.config
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\bin\Debug\BoolExp.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\bin\Debug\BoolExp.pdb
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\obj\Debug\BoolExp.csprojAssemblyReference.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\obj\Debug\BoolExp.csproj.CoreCompileInputs.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\obj\Debug\BoolExp.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\BoolExp\obj\Debug\BoolExp.pdb

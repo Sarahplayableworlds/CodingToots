@@ -7,7 +7,7 @@ namespace BoolExp
         static void Main(string[] args)
         {
             Console.Clear();
-            int apples = 18;
+            int apples = 6;
             int oranges = 9;
             decimal applePrice = 12.60m;
             decimal orangePrice = 4.50m;
@@ -22,6 +22,7 @@ namespace BoolExp
 
             Console.WriteLine($"Reducing apple cost: {(apples > oranges) && (applePrice > orangePrice)}");
 
+            Console.WriteLine($"Reducing apple cost: {(apples > oranges) || (applePrice > orangePrice)}");
         }
     }
 }

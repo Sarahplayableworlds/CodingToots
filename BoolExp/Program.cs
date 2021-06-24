@@ -21,6 +21,7 @@ namespace BoolExp
             Console.WriteLine($"{apples} is int is {apples is int}");
 
             Console.WriteLine($"Reducing apple cost: {(apples > oranges) && (applePrice > orangePrice)}");
+
         }
     }
 }

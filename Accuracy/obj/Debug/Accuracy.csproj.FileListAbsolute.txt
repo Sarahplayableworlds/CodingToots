@@ -1,0 +1,7 @@
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\bin\Debug\Accuracy.exe.config
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\bin\Debug\Accuracy.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\bin\Debug\Accuracy.pdb
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\obj\Debug\Accuracy.csprojAssemblyReference.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\obj\Debug\Accuracy.csproj.CoreCompileInputs.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\obj\Debug\Accuracy.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\Accuracy\obj\Debug\Accuracy.pdb

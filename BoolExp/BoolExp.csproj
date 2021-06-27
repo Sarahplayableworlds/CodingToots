@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5AAB4F4-B3E9-41A1-874B-E8A2C80D0043}</ProjectGuid>
+    <ProjectGuid>{3C112786-1CD2-499F-AC78-33E8834F5F19}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BoolExp</RootNamespace>
     <AssemblyName>BoolExp</AssemblyName>

@@ -1,0 +1,7 @@
+D:\PersonalProjects\BuildInTypes\bin\Debug\BuildInTypes.exe.config
+D:\PersonalProjects\BuildInTypes\bin\Debug\BuildInTypes.exe
+D:\PersonalProjects\BuildInTypes\bin\Debug\BuildInTypes.pdb
+D:\PersonalProjects\BuildInTypes\obj\Debug\BuildInTypes.csprojAssemblyReference.cache
+D:\PersonalProjects\BuildInTypes\obj\Debug\BuildInTypes.csproj.CoreCompileInputs.cache
+D:\PersonalProjects\BuildInTypes\obj\Debug\BuildInTypes.exe
+D:\PersonalProjects\BuildInTypes\obj\Debug\BuildInTypes.pdb

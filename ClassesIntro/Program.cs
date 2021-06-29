@@ -11,20 +11,29 @@ namespace ClassesIntro
             Car anotherCar = new Car();
 
             myCar.Accelerate();
+            myCar.Accelerate();
+            myCar.Accelerate();
+            myCar.Accelerate();
+            myCar.Brake();
+            myCar.Accelerate();
+
             anotherCar.Brake();
         }
     }
 
     class Car
     {
+        private int speed = 0;
         public void Accelerate()
         {
-            Console.WriteLine("You're going faster.");
+            speed++;
+            Console.WriteLine($"You're going {speed} mph.");
         }
 
         public void Brake()
         {
-            Console.WriteLine("You're going slower.");
+            speed--;
+            Console.WriteLine($"You're going {speed} mph.");
         }
     }
 }

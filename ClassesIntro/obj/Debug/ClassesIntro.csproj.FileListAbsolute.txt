@@ -1,0 +1,7 @@
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\obj\Debug\ClassesIntro.csprojAssemblyReference.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\obj\Debug\ClassesIntro.csproj.CoreCompileInputs.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\bin\Debug\ClassesIntro.exe.config
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\bin\Debug\ClassesIntro.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\bin\Debug\ClassesIntro.pdb
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\obj\Debug\ClassesIntro.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\ClassesIntro\obj\Debug\ClassesIntro.pdb

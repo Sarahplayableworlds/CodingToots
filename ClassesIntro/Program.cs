@@ -39,6 +39,11 @@ namespace ClassesIntro
         public void Brake()
         {
             speed--;
+            showSpeed();
+        }
+
+        private void showSpeed()
+        { 
             Console.WriteLine($"{name} is going {speed} mph.");
         }
     }

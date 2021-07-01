@@ -7,24 +7,44 @@ namespace ClassesIntro
         static void Main(string[] args)
         {
             Console.Clear();
-            Car myCar = new Car();
-            Car anotherCar = new Car();
+            Car myCar = new Car("The Flying Purple Penguin");
+            Car anotherCar = new Car("Batmobile");
 
             myCar.Accelerate();
+            myCar.Accelerate();
+            myCar.Accelerate();
+            myCar.Accelerate();
+            myCar.Brake();
+            myCar.Accelerate();
+
             anotherCar.Brake();
         }
     }
 
     class Car
     {
+        private int speed = 0;
+        private string name;
+
+        public Car(string carName)
+        {
+            name = carName;
+        }
         public void Accelerate()
         {
-            Console.WriteLine("You're going faster.");
+            speed++;
+            Console.WriteLine($"{name} is going {speed} mph.");
         }
 
         public void Brake()
         {
-            Console.WriteLine("You're going slower.");
+            speed--;
+            showSpeed();
+        }
+
+        private void showSpeed()
+        { 
+            Console.WriteLine($"{name} is going {speed} mph.");
         }
     }
 }

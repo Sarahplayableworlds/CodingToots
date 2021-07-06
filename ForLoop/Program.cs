@@ -6,9 +6,15 @@ namespace ForLoop
     {
         static void Main(string[] args)
         {
-            for(int i = 9; i >= 0; i--)
+            for(int i = 0; i <=9; i++)
             {
-                Console.WriteLine(i);
+                Console.Write($"row {i}: ");
+                //Console.WriteLine(i);
+                for(int j = 0; j <=9; j++)
+                {
+                    Console.Write(j);
+                }
+                Console.WriteLine();
             }
         }
     }

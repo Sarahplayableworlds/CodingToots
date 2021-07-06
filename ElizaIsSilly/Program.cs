@@ -11,8 +11,8 @@ namespace ElizaIsSilly
             Console.WriteLine(Doctor.Intro());
             Console.ResetColor();
 
-            var userInput = "";
-            while (!userInput.Equals("quit", StringComparison.OrdinalIgnoreCase))
+            string userInput;
+            do
             {
                 userInput = Console.ReadLine();
                 string response = Doctor.Response(userInput);
@@ -20,8 +20,7 @@ namespace ElizaIsSilly
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine(response);
                 Console.ResetColor();
-            }
-            
+            } while (!userInput.Equals("quit", StringComparison.OrdinalIgnoreCase));
         }
     }
 }

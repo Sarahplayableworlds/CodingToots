@@ -17,8 +17,8 @@ namespace SimpleMenu
             Console.WriteLine("6 - Espresso");
             Console.WriteLine("Q - Quit");
 
-            while (!userChoice.Equals('q'))
-            //while (!(userChoice.Equals('q') || userChoice.Equals('Q')))
+            //while (!userChoice.Equals('q'))
+            while (!(userChoice.Equals('q') || userChoice.Equals('Q')))
             {
                 userChoice = char.ToLower(Console.ReadKey(true).KeyChar);
                 Console.WriteLine("You Chose " + userChoice);

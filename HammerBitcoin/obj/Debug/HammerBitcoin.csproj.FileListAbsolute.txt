@@ -5,3 +5,10 @@ D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.CoreCompileInpu
 D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.exe
 D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.pdb
 D:\PersonalProjects\HammerBitcoin\obj\Debug\HammerBitcoin.csprojAssemblyReference.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\bin\Debug\HammerBitcoin.exe.config
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\bin\Debug\HammerBitcoin.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\bin\Debug\HammerBitcoin.pdb
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\obj\Debug\HammerBitcoin.csprojAssemblyReference.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\obj\Debug\HammerBitcoin.csproj.CoreCompileInputs.cache
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\obj\Debug\HammerBitcoin.exe
+C:\Users\Sarah Inman\Documents\GitHub\CodingToots\HammerBitcoin\obj\Debug\HammerBitcoin.pdb

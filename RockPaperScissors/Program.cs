@@ -25,13 +25,17 @@ namespace RockPaperScissors
             {
                 playerValue = Rock;
             }
-            if(playerChoice.Equals("paper"))
+            else if(playerChoice.Equals("paper"))
             {
                 playerValue = Paper;
             }
-            if(playerChoice.Equals("scissors"))
+            else if(playerChoice.Equals("scissors"))
             {
                 playerValue = Scissors;
+            }
+            else 
+            {
+                Console.WriteLine($"{playerChoice} is not a valid choice");
             }
 
             Console.WriteLine($"Player chose {playerChoice}, the value is {playerValue}");

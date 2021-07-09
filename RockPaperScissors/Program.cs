@@ -38,7 +38,18 @@ namespace RockPaperScissors
                 Console.WriteLine($"{playerChoice} is not a valid choice");
             }
 
-            Console.WriteLine($"Player chose {playerChoice}, the value is {playerValue}");
+            if (playerValue == computerValue)
+            {
+                Console.WriteLine("it's a draw");
+            }
+            else if ((playerValue -1 == computerValue) || (playerValue == Rock && computerValue == Scissors))
+            {
+                Console.WriteLine("Player wins");
+            }
+            else
+            {
+                Console.WriteLine("The computer wins!");
+            }
 
         }
     }

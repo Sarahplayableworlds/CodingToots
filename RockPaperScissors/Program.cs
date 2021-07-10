@@ -16,6 +16,9 @@ namespace RockPaperScissors
             int playerValue = -1;
 
             int computerValue = randomNumbers.Next(3);
+            string computerChoice;
+
+            // The code for the solution goes below this comment. Disctionary will be in a later course.
 
             Console.Clear();
             Console.Write("Please enter rock, paper or scissors ");
@@ -38,6 +41,7 @@ namespace RockPaperScissors
                 Console.WriteLine($"{playerChoice} is not a valid choice");
             }
 
+            Console.WriteLine($"Computer chose {computerChoice}, player chose {playerChoice}");
             if (playerValue == computerValue)
             {
                 Console.WriteLine("it's a draw");

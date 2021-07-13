@@ -19,6 +19,18 @@ namespace RockPaperScissors
             string computerChoice;
 
             // The code for the solution goes below this comment. Disctionary will be in a later course.
+            if (computerValue == Rock)
+            {
+                computerChoice = "rock";
+            }
+            else if (computerValue == Paper)
+            {
+                computerChoice = "paper";
+            }
+            else
+            {
+                computerChoice = "scissors"
+;            }
 
             Console.Clear();
             Console.Write("Please enter rock, paper or scissors ");

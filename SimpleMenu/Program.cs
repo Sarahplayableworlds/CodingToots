@@ -51,7 +51,9 @@ namespace SimpleMenu
                     case '6':
                         Console.WriteLine("Making Espresso");
                         break;
-
+                    default:
+                        Console.WriteLine("Returning coins");
+                        break;
                 }
             } while (!userChoice.Equals('q'));
 

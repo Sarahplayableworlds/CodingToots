@@ -8,7 +8,7 @@ namespace ClassesIntro
         {
             Console.Clear();
             Car myCar = new Car("The Flying Purple Penguin");
-            Car anotherCar = new Car("Batmobile");
+            Car anotherCar = new Car("The Batmobile");
 
             myCar.Accelerate();
             myCar.Accelerate();
@@ -30,19 +30,20 @@ namespace ClassesIntro
         {
             name = carName;
         }
+
         public void Accelerate()
         {
             speed++;
-            Console.WriteLine($"{name} is going {speed} mph.");
+            ShowSpeed();
         }
 
         public void Brake()
         {
             speed--;
-            showSpeed();
+            ShowSpeed();
         }
 
-        private void showSpeed()
+        private void ShowSpeed()
         { 
             Console.WriteLine($"{name} is going {speed} mph.");
         }

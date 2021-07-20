@@ -58,7 +58,6 @@ namespace SimpleMenu
                 Console.WriteLine("Dispensing coffee");
                 Console.WriteLine("Have a nice day");
             } while (!userChoice.Equals('q'));
-
         }
     }
 }

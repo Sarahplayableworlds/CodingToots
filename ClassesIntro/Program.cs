@@ -10,14 +10,11 @@ namespace ClassesIntro
             Car myCar = new Car("The Flying Purple Penguin");
             Car anotherCar = new Car("The Batmobile");
 
-            myCar.Accelerate();
-            myCar.Accelerate();
-            myCar.Accelerate();
-            myCar.Accelerate();
-            myCar.Brake();
-            myCar.Accelerate();
+            myCar.Accelerate(5);
+            myCar.Accelerate(30);
+            myCar.Brake(4);
 
-            anotherCar.Brake();
+            anotherCar.Brake(1);
         }
     }
 
@@ -31,15 +28,15 @@ namespace ClassesIntro
             name = carName;
         }
 
-        public void Accelerate()
+        public void Accelerate(int amount)
         {
-            speed++;
+            speed += amount; // speed = speed + amount
             ShowSpeed();
         }
 
-        public void Brake()
+        public void Brake(int speedReduction)
         {
-            speed--;
+            speed -= speedReduction;
             ShowSpeed();
         }
 

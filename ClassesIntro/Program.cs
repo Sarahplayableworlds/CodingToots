@@ -34,6 +34,12 @@ namespace ClassesIntro
             ShowSpeed();
         }
 
+        public void Brake(int speedReduction)
+        {
+            speed = (speed < speedReduction) ? 0 : speed - speedReduction;
+            ShowSpeed();
+        }
+
         //public void Brake(int speedReduction)
         //{
         //    if (speed < speedReduction)

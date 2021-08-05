@@ -59,12 +59,18 @@ namespace CarGame
                 {
                     switch (control)
                     {
-                        case 'a':
-                            // move left
+                        case Left:
                             for (int i = 0; i < batmobile.Speed; i++)
                             {
                                 carPosition--;
-                                DrawRoad(carPosition);
+                                if (StillOnTrack(carPosition, Road))
+                                {
+                                    DrawRoad(carPosition);
+                                } else
+                                {
+                                    Console.WriteLine("Holy car on fire Batman! Game Over.");
+                                }
+
                             }
                             break;
                         case Straight:
@@ -87,7 +93,7 @@ namespace CarGame
                             batmobile.Brake(accelerationFactor);
                             break;
                         case Info:
-                            //batmobile.ShowSpeed();
+                            batmobile.ShowSpeed();
                             break;
                         case Quit:
                             playing = false;
@@ -95,6 +101,11 @@ namespace CarGame
                     }
                 }
             } while (playing);
+        }
+
+        static bool StillOnTrack(int position, String road)
+        {
+            return (position < road.Length) && road[position].Equals(' ');
         }
 
         static void DrawRoad(int carPosition)
@@ -125,7 +136,7 @@ namespace CarGame
             ShowSpeed();
         }
 
-        private void ShowSpeed()
+        public void ShowSpeed()
         {
             Console.WriteLine($"{name} is going {Speed * 10} miles per hour.");
         }

@@ -66,11 +66,13 @@ namespace CarGame
                                 if (StillOnTrack(carPosition, Road))
                                 {
                                     DrawRoad(carPosition);
-                                } else
+                                } 
+                                else
                                 {
                                     Console.WriteLine("Holy car on fire Batman! Game Over.");
+                                    playing = false;
+                                    break;
                                 }
-
                             }
                             break;
                         case Straight:
@@ -123,7 +125,11 @@ namespace CarGame
         {
             name = carName;
         }
+        static bool Drive(int speed, int position)
+        {
 
+        }
+        static bool StillOnTrack(int position, String road)
         public void Accelerate(int amount)
         {
             Speed += amount;  // Speed = Speed + amount;

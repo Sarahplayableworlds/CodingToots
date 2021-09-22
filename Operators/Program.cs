@@ -6,22 +6,22 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            double a = 12 * 3 / 4;
-            double b = (12 * 3) / 4;
-            double c = 12 * (3 / 4);
-            Console.WriteLine($"{a}, {b}, {c},");
-            Console.WriteLine();
+            //int x = 12;
+            //int y = 3;
 
-            double d = 12.0 / 3.0 / 4.0;
-            double e = (12.0 / 3.0) / 4.0;
-            double f = 12.0 / (3.0 / 4.0);
-            Console.WriteLine($"{d}, {e}, {f}");
-            Console.WriteLine();
+            //if (x % y == 0)
+            //{
+            //    Console.WriteLine($"{y} divides exactly into {x}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{y} does not divide exactly into {x}");
+            //}
 
-            int x = 12 + 3 - 4;
-            int y = (12 + 3) - 4;
-            int z = 12 + (3 - 4);
-            Console.WriteLine($"{x}, {y}, {z}");
+            for (int month = 1; month <= 12; month++)
+            {
+                Console.WriteLine($"The next month after {month} is {month % 12 + 1}");
+            }
         }
     }
 }
